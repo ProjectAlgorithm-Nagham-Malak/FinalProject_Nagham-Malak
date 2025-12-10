@@ -183,12 +183,6 @@ public class SortingAlgorithms {
 
         System.out.println("<<Starting benchmark...>>\n");
       
-        for (int i = 0; i < 10; i++) 
-        {
-            int[] tempArr = generateDataset("random" , 1000);
-            quickSort(tempArr);
-        }
-      
         for (int i = 0; i < dataType.length; i++) 
         {
             String type = dataType[i];
@@ -262,4 +256,5 @@ public class SortingAlgorithms {
         for (int i = 0; i < arr.length; i++) c[i] = arr[i];
         return c;
  }
+
 }
